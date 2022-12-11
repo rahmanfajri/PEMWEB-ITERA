@@ -1,0 +1,137 @@
+html {
+  height: 100% !important;
+}
+* {
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  height: 100%;
+  color: rgb(184, 184, 184);
+  text-align: center;
+  background-color: #25282a;
+  margin: 0;
+}
+.navbar {
+  position: sticky;
+  background: #363940;
+  top: 0;
+  left: 0;
+  margin: none;
+  width: 100%;
+  z-index: 2;
+  height: auto;
+}
+header {
+  background-color: #25282a;
+  margin: none;
+}
+
+h2 {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.navbar > ul > li {
+  display: inline-block;
+  padding: 15px 10px;
+}
+.navbar > ul > li > a {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(184, 184, 184);
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+.navbar > ul > li > a:hover {
+  color: #fff;
+  text-decoration-line: overline;
+  text-decoration-thickness: 2px;
+}
+
+.content {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  padding-top: 1% !important;
+  padding: 2%;
+  background-color: #363940;
+  border-radius: 20px;
+}
+
+.tabel {
+  text-align: left !important;
+}
+footer {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 15px 10px;
+  width: 100%;
+  background: #363940;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.download {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  margin-left: 21em;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+input[type='text'],
+[type='email'] {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  border-radius: 10px;
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 15px;
+  padding: 0.5em 2em 0.5em 2em;
+  width: 200px;
+}
+
+input[type='radio'] {
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1em;
+  height: 1em;
+  border: 0.15em solid currentColor;
+  border-radius: 50%;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  border-radius: 10px;
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 15px;
+  padding: 0.5em 2em 0.5em 2em;
+  width: 200px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum 4 - Rahman Pajri 120140118</title>
+
+    <style>
+      body {
+        background-color: #68b984;
+        text-transform: uppercase;
+      }
+
+      input[type='text'] {
+        border: none;
+        border-bottom: 5px solid #68b984;
+        border-radius: 10px;
+        color: #333;
+        font-size: 14px;
+        margin-bottom: 15px;
+        padding: 0.7em 1.5em 0.7em 1.5em;
+        width: 200px;
+        font-size: medium;
+        font-weight: bold;
+      }
+      .container {
+        align-items: center;
+        background-color: #cffde1;
+        border-radius: 5px;
+        width: 650px;
+        padding: 25px 90px;
+        margin: 100px 0;
+        border-radius: 40px;
+      }
+
+      button {
+        border-radius: 2em;
+        padding: 10px;
+        border: none;
+        background-color: greenyellow;
+        color: black;
+        text-transform: uppercase;
+        font-size: medium;
+        font-weight: bold;
+      }
+      button:hover {
+        border-radius: 2em;
+        padding: 10px;
+        border: none;
+        background-color: rgb(144, 218, 34);
+        color: black;
+        text-transform: uppercase;
+        font-size: medium;
+        font-weight: bold;
+      }
+      label {
+        text-transform: uppercase;
+        font-size: medium;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <center>
+      <div class="container">
+        <h1>Praktikum 4 Pemrogaman web</h1>
+        <h2>Rahman Pajri - 120140118</h2>
+
+        <label>Masukan Bilangan: </label><br />
+        <input type="text" id="cek" /><br /><br />
+        <button onclick="cek()">Cek Bilangan</button>
+        <p><label for="" id="hasil"></label></p>
+      </div>
+    </center>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
